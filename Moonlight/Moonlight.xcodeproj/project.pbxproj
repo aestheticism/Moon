@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD564F3B1A668582009D579C /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CD564F3A1A668582009D579C /* BaseScene.m */; };
+		CD5DD94D1A67D25E00E0884C /* story in Resources */ = {isa = PBXBuildFile; fileRef = CD5DD94C1A67D25E00E0884C /* story */; };
+		CD5DD9531A67E81300E0884C /* GameBaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9521A67E81300E0884C /* GameBaseScene.m */; };
+		CD5DD9561A67E9E000E0884C /* BFGraphicsUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9551A67E9E000E0884C /* BFGraphicsUtilities.m */; };
+		CD5DD9591A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9581A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.m */; };
+		CD5DD95C1A67EB4F00E0884C /* Intelligence.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD95B1A67EB4F00E0884C /* Intelligence.m */; };
+		CD5DD95F1A67EEE200E0884C /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD95E1A67EEE200E0884C /* GameScene.m */; };
+		CD5DD9631A67FF2D00E0884C /* moon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5DD9611A67FF2D00E0884C /* moon@2x.png */; };
+		CD5DD9641A67FF2D00E0884C /* voilet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5DD9621A67FF2D00E0884C /* voilet@2x.png */; };
+		CD5DD9671A6800CC00E0884C /* BgNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9661A6800CC00E0884C /* BgNode.m */; };
+		CD5DD96A1A6805E000E0884C /* UIColor+BFColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5DD9691A6805E000E0884C /* UIColor+BFColors.m */; };
+		CD6714991A5EDAB400332C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714981A5EDAB400332C84 /* main.m */; };
+		CD67149C1A5EDAB400332C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD67149B1A5EDAB400332C84 /* AppDelegate.m */; };
+		CD6714A41A5EDAB400332C84 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714A31A5EDAB400332C84 /* GameViewController.m */; };
+		CD6714A71A5EDAB400332C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6714A51A5EDAB400332C84 /* Main.storyboard */; };
+		CD6714A91A5EDAB400332C84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6714A81A5EDAB400332C84 /* Images.xcassets */; };
+		CD6714AC1A5EDAB400332C84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6714AA1A5EDAB400332C84 /* LaunchScreen.xib */; };
+		CD6714B81A5EDAB500332C84 /* MoonlightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714B71A5EDAB500332C84 /* MoonlightTests.m */; };
+		CD6714E11A5EE38900332C84 /* SKScene+Unarchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714E01A5EE38900332C84 /* SKScene+Unarchive.m */; };
+		CD6714E41A5EE47700332C84 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714E31A5EE47700332C84 /* Entity.m */; };
+		CD6714E71A5EE4B300332C84 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714E61A5EE4B300332C84 /* Character.m */; };
+		CD6714EA1A5EE4CB00332C84 /* HeroCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714E91A5EE4CB00332C84 /* HeroCharacter.m */; };
+		CD6714ED1A5EE4E400332C84 /* EnemyCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6714EC1A5EE4E400332C84 /* EnemyCharacter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6714B21A5EDAB500332C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD67148B1A5EDAB400332C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6714921A5EDAB400332C84;
+			remoteInfo = Moonlight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD564F391A668582009D579C /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
+		CD564F3A1A668582009D579C /* BaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScene.m; sourceTree = "<group>"; };
+		CD5DD94C1A67D25E00E0884C /* story */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = story; sourceTree = "<group>"; };
+		CD5DD9511A67E81300E0884C /* GameBaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBaseScene.h; sourceTree = "<group>"; };
+		CD5DD9521A67E81300E0884C /* GameBaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameBaseScene.m; sourceTree = "<group>"; };
+		CD5DD9541A67E9E000E0884C /* BFGraphicsUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFGraphicsUtilities.h; sourceTree = "<group>"; };
+		CD5DD9551A67E9E000E0884C /* BFGraphicsUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFGraphicsUtilities.m; sourceTree = "<group>"; };
+		CD5DD9571A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+EmitterAdditions.h"; sourceTree = "<group>"; };
+		CD5DD9581A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+EmitterAdditions.m"; sourceTree = "<group>"; };
+		CD5DD95A1A67EB4F00E0884C /* Intelligence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intelligence.h; sourceTree = "<group>"; };
+		CD5DD95B1A67EB4F00E0884C /* Intelligence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intelligence.m; sourceTree = "<group>"; };
+		CD5DD95D1A67EEE200E0884C /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CD5DD95E1A67EEE200E0884C /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CD5DD9611A67FF2D00E0884C /* moon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moon@2x.png"; sourceTree = "<group>"; };
+		CD5DD9621A67FF2D00E0884C /* voilet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voilet@2x.png"; sourceTree = "<group>"; };
+		CD5DD9651A6800CC00E0884C /* BgNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BgNode.h; sourceTree = "<group>"; };
+		CD5DD9661A6800CC00E0884C /* BgNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BgNode.m; sourceTree = "<group>"; };
+		CD5DD9681A6805E000E0884C /* UIColor+BFColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFColors.h"; sourceTree = "<group>"; };
+		CD5DD9691A6805E000E0884C /* UIColor+BFColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFColors.m"; sourceTree = "<group>"; };
+		CD5DD96B1A680AB700E0884C /* Moonlight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moonlight-Prefix.pch"; sourceTree = "<group>"; };
+		CD6714931A5EDAB400332C84 /* Moonlight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonlight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6714971A5EDAB400332C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6714981A5EDAB400332C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD67149A1A5EDAB400332C84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		CD67149B1A5EDAB400332C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		CD6714A21A5EDAB400332C84 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../../GameViewController.h; sourceTree = "<group>"; };
+		CD6714A31A5EDAB400332C84 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../../GameViewController.m; sourceTree = "<group>"; };
+		CD6714A61A5EDAB400332C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6714A81A5EDAB400332C84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD6714AB1A5EDAB400332C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD6714B11A5EDAB500332C84 /* MoonlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonlightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6714B61A5EDAB500332C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6714B71A5EDAB500332C84 /* MoonlightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoonlightTests.m; sourceTree = "<group>"; };
+		CD6714DF1A5EE38900332C84 /* SKScene+Unarchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKScene+Unarchive.h"; sourceTree = "<group>"; };
+		CD6714E01A5EE38900332C84 /* SKScene+Unarchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKScene+Unarchive.m"; sourceTree = "<group>"; };
+		CD6714E21A5EE47700332C84 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		CD6714E31A5EE47700332C84 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		CD6714E51A5EE4B300332C84 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		CD6714E61A5EE4B300332C84 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		CD6714E81A5EE4CB00332C84 /* HeroCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroCharacter.h; sourceTree = "<group>"; };
+		CD6714E91A5EE4CB00332C84 /* HeroCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroCharacter.m; sourceTree = "<group>"; };
+		CD6714EB1A5EE4E400332C84 /* EnemyCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyCharacter.h; sourceTree = "<group>"; };
+		CD6714EC1A5EE4E400332C84 /* EnemyCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyCharacter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6714901A5EDAB400332C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6714AE1A5EDAB500332C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5DD9601A67FF2D00E0884C /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD9611A67FF2D00E0884C /* moon@2x.png */,
+				CD5DD9621A67FF2D00E0884C /* voilet@2x.png */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		CD67148A1A5EDAB400332C84 = {
+			isa = PBXGroup;
+			children = (
+				CD6714951A5EDAB400332C84 /* Moonlight */,
+				CD6714B41A5EDAB500332C84 /* MoonlightTests */,
+				CD6714941A5EDAB400332C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6714941A5EDAB400332C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714931A5EDAB400332C84 /* Moonlight.app */,
+				CD6714B11A5EDAB500332C84 /* MoonlightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6714951A5EDAB400332C84 /* Moonlight */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714C11A5EE1C700332C84 /* Class */,
+				CD6714D51A5EE1C700332C84 /* Resouce */,
+				CD6714A81A5EDAB400332C84 /* Images.xcassets */,
+				CD6714961A5EDAB400332C84 /* Supporting Files */,
+			);
+			path = Moonlight;
+			sourceTree = "<group>";
+		};
+		CD6714961A5EDAB400332C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714971A5EDAB400332C84 /* Info.plist */,
+				CD6714981A5EDAB400332C84 /* main.m */,
+				CD5DD96B1A680AB700E0884C /* Moonlight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6714B41A5EDAB500332C84 /* MoonlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714B71A5EDAB500332C84 /* MoonlightTests.m */,
+				CD6714B51A5EDAB500332C84 /* Supporting Files */,
+			);
+			path = MoonlightTests;
+			sourceTree = "<group>";
+		};
+		CD6714B51A5EDAB500332C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714B61A5EDAB500332C84 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD6714C11A5EE1C700332C84 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714DC1A5EE2BA00332C84 /* Application */,
+				CD6714C31A5EE1C700332C84 /* Controller */,
+				CD6714D31A5EE1C700332C84 /* Scene */,
+				CD6714D21A5EE1C700332C84 /* Player */,
+				CD6714C61A5EE1C700332C84 /* Entity */,
+				CD6714D11A5EE1C700332C84 /* Node */,
+				CD6714CE1A5EE1C700332C84 /* Intelligence */,
+				CD6714C21A5EE1C700332C84 /* Component */,
+				CD6714CF1A5EE1C700332C84 /* Magic */,
+				CD6714D01A5EE1C700332C84 /* Model */,
+				CD6714C41A5EE1C700332C84 /* Data */,
+				CD6714DD1A5EE35300332C84 /* General */,
+				CD6714C51A5EE1C700332C84 /* Emitter */,
+				CD6714D41A5EE1C700332C84 /* Utilities */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		CD6714C21A5EE1C700332C84 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CD6714C31A5EE1C700332C84 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714A21A5EDAB400332C84 /* GameViewController.h */,
+				CD6714A31A5EDAB400332C84 /* GameViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD6714C41A5EE1C700332C84 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CD6714C51A5EE1C700332C84 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Emitter;
+			sourceTree = "<group>";
+		};
+		CD6714C61A5EE1C700332C84 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714CA1A5EE1C700332C84 /* Entity */,
+				CD6714C81A5EE1C700332C84 /* Character */,
+				CD6714CB1A5EE1C700332C84 /* Hero */,
+				CD6714C91A5EE1C700332C84 /* Enemy */,
+				CD6714C71A5EE1C700332C84 /* Bullet */,
+				CD6714CC1A5EE1C700332C84 /* Item */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CD6714C71A5EE1C700332C84 /* Bullet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bullet;
+			sourceTree = "<group>";
+		};
+		CD6714C81A5EE1C700332C84 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714E51A5EE4B300332C84 /* Character.h */,
+				CD6714E61A5EE4B300332C84 /* Character.m */,
+				CD6714E81A5EE4CB00332C84 /* HeroCharacter.h */,
+				CD6714E91A5EE4CB00332C84 /* HeroCharacter.m */,
+				CD6714EB1A5EE4E400332C84 /* EnemyCharacter.h */,
+				CD6714EC1A5EE4E400332C84 /* EnemyCharacter.m */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		CD6714C91A5EE1C700332C84 /* Enemy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enemy;
+			sourceTree = "<group>";
+		};
+		CD6714CA1A5EE1C700332C84 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714E21A5EE47700332C84 /* Entity.h */,
+				CD6714E31A5EE47700332C84 /* Entity.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CD6714CB1A5EE1C700332C84 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		CD6714CC1A5EE1C700332C84 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		CD6714CE1A5EE1C700332C84 /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD95A1A67EB4F00E0884C /* Intelligence.h */,
+				CD5DD95B1A67EB4F00E0884C /* Intelligence.m */,
+			);
+			path = Intelligence;
+			sourceTree = "<group>";
+		};
+		CD6714CF1A5EE1C700332C84 /* Magic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Magic;
+			sourceTree = "<group>";
+		};
+		CD6714D01A5EE1C700332C84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD6714D11A5EE1C700332C84 /* Node */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD9651A6800CC00E0884C /* BgNode.h */,
+				CD5DD9661A6800CC00E0884C /* BgNode.m */,
+			);
+			path = Node;
+			sourceTree = "<group>";
+		};
+		CD6714D21A5EE1C700332C84 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		CD6714D31A5EE1C700332C84 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CD564F391A668582009D579C /* BaseScene.h */,
+				CD564F3A1A668582009D579C /* BaseScene.m */,
+				CD5DD9511A67E81300E0884C /* GameBaseScene.h */,
+				CD5DD9521A67E81300E0884C /* GameBaseScene.m */,
+				CD5DD95D1A67EEE200E0884C /* GameScene.h */,
+				CD5DD95E1A67EEE200E0884C /* GameScene.m */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		CD6714D41A5EE1C700332C84 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD9541A67E9E000E0884C /* BFGraphicsUtilities.h */,
+				CD5DD9551A67E9E000E0884C /* BFGraphicsUtilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CD6714D51A5EE1C700332C84 /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD9601A67FF2D00E0884C /* Test */,
+				CD6714D61A5EE1C700332C84 /* Atlases */,
+				CD6714D71A5EE1C700332C84 /* File */,
+				CD6714D81A5EE1C700332C84 /* Particles */,
+				CD6714D91A5EE1C700332C84 /* Sounds */,
+				CD6714DA1A5EE1C700332C84 /* UI */,
+			);
+			path = Resouce;
+			sourceTree = "<group>";
+		};
+		CD6714D61A5EE1C700332C84 /* Atlases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Atlases;
+			sourceTree = "<group>";
+		};
+		CD6714D71A5EE1C700332C84 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				CD5DD94C1A67D25E00E0884C /* story */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		CD6714D81A5EE1C700332C84 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		CD6714D91A5EE1C700332C84 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		CD6714DA1A5EE1C700332C84 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CD6714DC1A5EE2BA00332C84 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CD67149A1A5EDAB400332C84 /* AppDelegate.h */,
+				CD67149B1A5EDAB400332C84 /* AppDelegate.m */,
+				CD6714A51A5EDAB400332C84 /* Main.storyboard */,
+				CD6714AA1A5EDAB400332C84 /* LaunchScreen.xib */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		CD6714DD1A5EE35300332C84 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714DE1A5EE35300332C84 /* Category */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		CD6714DE1A5EE35300332C84 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CD6714DF1A5EE38900332C84 /* SKScene+Unarchive.h */,
+				CD6714E01A5EE38900332C84 /* SKScene+Unarchive.m */,
+				CD5DD9571A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.h */,
+				CD5DD9581A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.m */,
+				CD5DD9681A6805E000E0884C /* UIColor+BFColors.h */,
+				CD5DD9691A6805E000E0884C /* UIColor+BFColors.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6714921A5EDAB400332C84 /* Moonlight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6714BB1A5EDAB500332C84 /* Build configuration list for PBXNativeTarget "Moonlight" */;
+			buildPhases = (
+				CD67148F1A5EDAB400332C84 /* Sources */,
+				CD6714901A5EDAB400332C84 /* Frameworks */,
+				CD6714911A5EDAB400332C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moonlight;
+			productName = Moonlight;
+			productReference = CD6714931A5EDAB400332C84 /* Moonlight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6714B01A5EDAB500332C84 /* MoonlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6714BE1A5EDAB500332C84 /* Build configuration list for PBXNativeTarget "MoonlightTests" */;
+			buildPhases = (
+				CD6714AD1A5EDAB500332C84 /* Sources */,
+				CD6714AE1A5EDAB500332C84 /* Frameworks */,
+				CD6714AF1A5EDAB500332C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6714B31A5EDAB500332C84 /* PBXTargetDependency */,
+			);
+			name = MoonlightTests;
+			productName = MoonlightTests;
+			productReference = CD6714B11A5EDAB500332C84 /* MoonlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD67148B1A5EDAB400332C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "蝴蝶";
+				TargetAttributes = {
+					CD6714921A5EDAB400332C84 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CD6714B01A5EDAB500332C84 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CD6714921A5EDAB400332C84;
+					};
+				};
+			};
+			buildConfigurationList = CD67148E1A5EDAB400332C84 /* Build configuration list for PBXProject "Moonlight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD67148A1A5EDAB400332C84;
+			productRefGroup = CD6714941A5EDAB400332C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6714921A5EDAB400332C84 /* Moonlight */,
+				CD6714B01A5EDAB500332C84 /* MoonlightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6714911A5EDAB400332C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6714AC1A5EDAB400332C84 /* LaunchScreen.xib in Resources */,
+				CD5DD9641A67FF2D00E0884C /* voilet@2x.png in Resources */,
+				CD5DD9631A67FF2D00E0884C /* moon@2x.png in Resources */,
+				CD6714A91A5EDAB400332C84 /* Images.xcassets in Resources */,
+				CD5DD94D1A67D25E00E0884C /* story in Resources */,
+				CD6714A71A5EDAB400332C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6714AF1A5EDAB500332C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD67148F1A5EDAB400332C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD564F3B1A668582009D579C /* BaseScene.m in Sources */,
+				CD6714EA1A5EE4CB00332C84 /* HeroCharacter.m in Sources */,
+				CD6714E41A5EE47700332C84 /* Entity.m in Sources */,
+				CD5DD95C1A67EB4F00E0884C /* Intelligence.m in Sources */,
+				CD5DD9671A6800CC00E0884C /* BgNode.m in Sources */,
+				CD5DD9531A67E81300E0884C /* GameBaseScene.m in Sources */,
+				CD5DD9561A67E9E000E0884C /* BFGraphicsUtilities.m in Sources */,
+				CD6714A41A5EDAB400332C84 /* GameViewController.m in Sources */,
+				CD5DD9591A67EA9500E0884C /* SKEmitterNode+EmitterAdditions.m in Sources */,
+				CD67149C1A5EDAB400332C84 /* AppDelegate.m in Sources */,
+				CD6714E11A5EE38900332C84 /* SKScene+Unarchive.m in Sources */,
+				CD5DD95F1A67EEE200E0884C /* GameScene.m in Sources */,
+				CD6714991A5EDAB400332C84 /* main.m in Sources */,
+				CD6714ED1A5EE4E400332C84 /* EnemyCharacter.m in Sources */,
+				CD6714E71A5EE4B300332C84 /* Character.m in Sources */,
+				CD5DD96A1A6805E000E0884C /* UIColor+BFColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6714AD1A5EDAB500332C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6714B81A5EDAB500332C84 /* MoonlightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6714B31A5EDAB500332C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6714921A5EDAB400332C84 /* Moonlight */;
+			targetProxy = CD6714B21A5EDAB500332C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6714A51A5EDAB400332C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6714A61A5EDAB400332C84 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CD6714AA1A5EDAB400332C84 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6714AB1A5EDAB400332C84 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6714B91A5EDAB500332C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Moonlight/Moonlight-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD6714BA1A5EDAB500332C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Moonlight/Moonlight-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6714BC1A5EDAB500332C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Moonlight/Moonlight-Prefix.pch";
+				INFOPLIST_FILE = Moonlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD6714BD1A5EDAB500332C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Moonlight/Moonlight-Prefix.pch";
+				INFOPLIST_FILE = Moonlight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD6714BF1A5EDAB500332C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoonlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moonlight.app/Moonlight";
+			};
+			name = Debug;
+		};
+		CD6714C01A5EDAB500332C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MoonlightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moonlight.app/Moonlight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD67148E1A5EDAB400332C84 /* Build configuration list for PBXProject "Moonlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6714B91A5EDAB500332C84 /* Debug */,
+				CD6714BA1A5EDAB500332C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6714BB1A5EDAB500332C84 /* Build configuration list for PBXNativeTarget "Moonlight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6714BC1A5EDAB500332C84 /* Debug */,
+				CD6714BD1A5EDAB500332C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6714BE1A5EDAB500332C84 /* Build configuration list for PBXNativeTarget "MoonlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6714BF1A5EDAB500332C84 /* Debug */,
+				CD6714C01A5EDAB500332C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD67148B1A5EDAB400332C84 /* Project object */;
+}
